@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github-page/static/css/main.91697b62.css",
+    "main.js": "/github-page/static/js/main.0075faf5.js",
+    "static/media/blackWhite.jpg": "/github-page/static/media/blackWhite.1e8fa6ef65e6a84d13a4.jpg",
+    "static/media/coolveticaRg.otf": "/github-page/static/media/coolveticaRg.3d81d0e1fdbd5f69b232.otf",
+    "index.html": "/github-page/index.html",
+    "main.91697b62.css.map": "/github-page/static/css/main.91697b62.css.map",
+    "main.0075faf5.js.map": "/github-page/static/js/main.0075faf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91697b62.css",
+    "static/js/main.0075faf5.js"
+  ]
+}
