@@ -1,0 +1,30 @@
+/* .projects {
+  background-color: aqua;
+  color: aliceblue;
+  width: 500px;
+  height: 500px;
+} */
+
+.projects {
+  color:rgb(0, 247, 255);;
+  background-color: rgb(16, 16, 16);
+  padding-left: 130px;
+
+  font-family: 'coolvetica';
+}
+
+/* .projects_container {
+  display: flex;
+  color:rgb(0, 247, 255);;
+  background-color: rgb(16, 16, 16);
+  padding-left: 130px;
+  font-family: 'coolvetica';
+} */
+
+/* .project {
+  width: 50vh;
+} */
+
+.project img{
+  width: 50px;
+}

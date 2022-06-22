@@ -1,0 +1,62 @@
+.sidebar {
+  display: flex;
+  position: fixed;
+  background-color: rgb(28, 28, 28);
+  height: 100%;
+  color:rgb(145, 145, 145);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+header p {
+    padding: 15px 0;
+}
+
+.namepc {
+  background-color: rgb(16, 16, 16);
+  width: 100%;
+  height: 170px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+
+.namepc h4 {
+  color: aliceblue;
+}
+
+hr {
+  size: 10px;
+  width: 97%;
+}
+
+.pags {
+  margin-top: 80%; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.icons {
+  padding: 80% 5px;
+margin-bottom: 50%;
+}
+
+.icons a {
+  background-color: rgb(28, 28, 28);
+  color:rgb(145, 145, 145);
+  border: none;
+  padding: 10px 5px;
+  font-size: 20px;
+}
