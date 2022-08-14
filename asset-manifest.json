@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.f3a7ee8f.css",
-    "main.js": "/github-page/static/js/main.ba2406a2.js",
+    "main.css": "/github-page/static/css/main.b9d701ab.css",
+    "main.js": "/github-page/static/js/main.b607fb15.js",
     "static/media/blackWhite.jpg": "/github-page/static/media/blackWhite.1e8fa6ef65e6a84d13a4.jpg",
+    "static/media/pretoDegrade.jpg": "/github-page/static/media/pretoDegrade.7021e5d075b8eced809c.jpg",
     "static/media/coolveticaRg.otf": "/github-page/static/media/coolveticaRg.3d81d0e1fdbd5f69b232.otf",
+    "static/media/progrM.png": "/github-page/static/media/progrM.fe337c10fc5f89807b70.png",
     "index.html": "/github-page/index.html",
-    "main.f3a7ee8f.css.map": "/github-page/static/css/main.f3a7ee8f.css.map",
-    "main.ba2406a2.js.map": "/github-page/static/js/main.ba2406a2.js.map"
+    "main.b9d701ab.css.map": "/github-page/static/css/main.b9d701ab.css.map",
+    "main.b607fb15.js.map": "/github-page/static/js/main.b607fb15.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3a7ee8f.css",
-    "static/js/main.ba2406a2.js"
+    "static/css/main.b9d701ab.css",
+    "static/js/main.b607fb15.js"
   ]
 }
