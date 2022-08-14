@@ -64,6 +64,12 @@ function Projects () {
   return (
     <section className="projects">
       <h1>Projects</h1>
+      <br />
+      <p>Uma pequena parcela de projetos realizados por mim durante o curso da Trybe <br />
+        e alguns realizados por fora, portifolio ainda em construcao, tenho muitos projetos <br />
+        ja prontos tanto de front-end quanto de back-end, porem que
+        estou fazendo ajustes para postar aqui ;) <br /> <br />
+      </p>
       <div className="projects_container">
       {
         projects.map((project) => {

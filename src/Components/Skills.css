@@ -1,0 +1,25 @@
+.skills {
+  background-color: aliceblue;
+  /* height: 800px; */
+  /* width: 1000px; */
+  display: flex;
+  width: 94%;
+  flex-direction: column;
+  color:rgb(255, 255, 255);
+  /* font-family: 'coolvetica'; */
+  background-color: rgb(16, 16, 16);
+  padding-top: 10px;
+  padding-left: 114px;
+  align-items: center;
+  /* width: 100vw; */
+  /* height: 100%; */
+  height: 100vh;
+  background-color: rgb(23, 39, 39);
+  margin: 1rem;
+}
+
+.skills img {
+  width: 150px;
+  color: aqua;
+  padding: 1rem;
+}
