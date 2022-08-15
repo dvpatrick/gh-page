@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.b9d701ab.css",
-    "main.js": "/github-page/static/js/main.b607fb15.js",
-    "static/media/blackWhite.jpg": "/github-page/static/media/blackWhite.1e8fa6ef65e6a84d13a4.jpg",
-    "static/media/pretoDegrade.jpg": "/github-page/static/media/pretoDegrade.7021e5d075b8eced809c.jpg",
-    "static/media/coolveticaRg.otf": "/github-page/static/media/coolveticaRg.3d81d0e1fdbd5f69b232.otf",
-    "static/media/progrM.png": "/github-page/static/media/progrM.fe337c10fc5f89807b70.png",
-    "index.html": "/github-page/index.html",
-    "main.b9d701ab.css.map": "/github-page/static/css/main.b9d701ab.css.map",
-    "main.b607fb15.js.map": "/github-page/static/js/main.b607fb15.js.map"
+    "main.css": "/gh-page/static/css/main.c328ad78.css",
+    "main.js": "/gh-page/static/js/main.31a9ab2b.js",
+    "static/media/blackWhite.jpg": "/gh-page/static/media/blackWhite.1e8fa6ef65e6a84d13a4.jpg",
+    "static/media/pretoDegrade.jpg": "/gh-page/static/media/pretoDegrade.7021e5d075b8eced809c.jpg",
+    "static/media/coolveticaRg.otf": "/gh-page/static/media/coolveticaRg.3d81d0e1fdbd5f69b232.otf",
+    "static/media/progrM.png": "/gh-page/static/media/progrM.fe337c10fc5f89807b70.png",
+    "index.html": "/gh-page/index.html",
+    "main.c328ad78.css.map": "/gh-page/static/css/main.c328ad78.css.map",
+    "main.31a9ab2b.js.map": "/gh-page/static/js/main.31a9ab2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9d701ab.css",
-    "static/js/main.b607fb15.js"
+    "static/css/main.c328ad78.css",
+    "static/js/main.31a9ab2b.js"
   ]
 }
