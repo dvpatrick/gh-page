@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7cdeb102.css",
+    "main.js": "/static/js/main.19d426fb.js",
+    "static/media/blackWhite.jpg": "/static/media/blackWhite.1e8fa6ef65e6a84d13a4.jpg",
+    "static/media/pretoDegrade.jpg": "/static/media/pretoDegrade.7021e5d075b8eced809c.jpg",
+    "static/media/coolveticaRg.otf": "/static/media/coolveticaRg.3d81d0e1fdbd5f69b232.otf",
+    "static/media/progrM.png": "/static/media/progrM.fe337c10fc5f89807b70.png",
+    "index.html": "/index.html",
+    "main.7cdeb102.css.map": "/static/css/main.7cdeb102.css.map",
+    "main.19d426fb.js.map": "/static/js/main.19d426fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cdeb102.css",
+    "static/js/main.19d426fb.js"
+  ]
+}
