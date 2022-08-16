@@ -1,9 +1,7 @@
 import './Contact.css';
 import mapaLoc from '../images/mapaLoc.jpg'
 
-<form name="form1" netlify netlify-honeypot="bot-field" hidden>
-  <input type="text" name="name" />
-</form>
+{/* <form name="formulariologin" netlify hidden><input type="text" name="nome" /><input type="text" name="email" /><input type="text" name="assunto" /><textarea type="text" name="texto" /></form> */}
 
 function contact() {
   return (
@@ -16,8 +14,7 @@ function contact() {
           alguma duvida ou feedback, seja positivo ou negativo, nao hesite em me mandar <br />
           por esse formulario. <br /> <br />
         </p>
-        {/* <form name="formularioLogin"> */}
-        {/* <form name="formulariologin" method="post" data-netlify="true" onSubmit="submit">
+        <form name="formulariologin" method="post" data-netlify="true" onSubmit="submit">
           <input type="hidden" name="form-name" value="formulariologin" />
           <fieldset>
             <input type="text" name="nome" placeholder='Nome'></input>
@@ -30,25 +27,9 @@ function contact() {
             <textarea type="text" name="texto" placeholder='Texto'></textarea>
           </fieldset>
           <button type="submit" name="enviar" className='btn'>Enviar!</button>
-        </form> */}
-        <form
-          name="form1"
-          method="post"
-          netlify
-          onSubmit="submit"
-          >
-            <input type="hidden" name="form-name" value="form1" />
-            <div>
-              <label htmlFor='name'>Firt name <br />
-                <input id='name' type="text" name="name" />
-              </label>
-            </div>
-
-            <button type="submit">Submit</button>
-          </form>
+        </form>
       </div>
       <div className='map'>
-      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14959.626954678391!2d-40.37868764999999!3d-20.3867348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83ee07d3cd9c7%3A0x53ae290ed575a60e!2sUnidade%20de%20Sa%C3%BAde%20Rio%20Marinho!5e0!3m2!1spt-BR!2sbr!4v1660603146731!5m2!1spt-BR!2sbr" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='maap'></iframe> */}
         <img src={mapaLoc} alt='mapa com localizacao'/>
       </div>
     </section>
@@ -56,3 +37,6 @@ function contact() {
 }
 
 export default contact;
+
+
+// <!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="./favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="./logo192.png"/><link rel="manifest" href="./manifest.json"/><title>React App</title><script defer="defer" src="./static/js/main.3fdc04d0.js"></script><link href="./static/css/main.598223dd.css" rel="stylesheet"></head><body><form name="form1" netlify netlify-honeypot="bot-field" hidden><input type="text" name="name" /></form><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
