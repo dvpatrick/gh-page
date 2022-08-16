@@ -83,11 +83,11 @@ function Skills() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt='express'/>  
       </div>
       <div className='vidro'>
-        unix
+        Unix
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unix/unix-original.svg" alt='unix' />
       </div>
       <div className='vidro'>
-        bash
+        Bash
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt='bash' />
       </div>
       <div className='vidro'>

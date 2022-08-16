@@ -13,13 +13,13 @@ function About() {
         de 6 anos.<br />
         E a tao famosa pergunta "oque me trouxe para área de tecnologia?" :<br />
         Não foi por acaso, desde pequeno sempre fui apaixonado por tecnologia, os olhos<br />
-        brilhavam ao aprender algo novo seja em qualquer área desse enorme mundo<br />
-        porem por ter sido criado por mãe solteira e sem formação, não tive oportunidade<br />
+        brilhavam ao aprender algo novo seja em qualquer área desse enorme mundo.<br />
+        Porem por ter sido criado por mãe solteira e sem formação, não tive oportunidade<br />
         de fazer uma faculdade cedo, mas gracas ao acesso que temos hoje em dia graças a <br />
         tecnologia, pude me formar desenvolvedor fullstack na @Trybe, onde fiz o curso de <br />
         mais de 1500 horas (fora as horas de estudos por fora, que acredite, foram muuitas)<br />
         e hoje apos o recebimento dos certificados de front-end e back-end, sigo finalizando<br />
-        o curso no último módulo (ciências da computação)..<br />
+        o curso no último módulo (ciências da computação)...<br />
         Se você leu ate aqui e esta pensando em talvez me dar minha primeira oportunidade<br />
         de emprego formal nessa área, eu ficaria muito feliz em receber seu contato, vamos <br />
         conversar ?
