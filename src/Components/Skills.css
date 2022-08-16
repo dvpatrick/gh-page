@@ -11,12 +11,14 @@
   padding-top: 10px;
   padding-left: 76px;
   align-items: center;
-  height: 130vh;
+  /* height: 130vh; */
+  min-height: 100vh;
+  height: 100%;
   /* background-color: rgb(23, 39, 39); */
   background-image: url("../images/pretoDegrade.jpg");
   /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  background-size: auto;
+  /* background-size: auto; */
+  background-size: cover;
   /* background-position:110px; */
   /* background-position-x:100px ; */
   /* background-image: linear-gradient(red, yellow); */
@@ -41,7 +43,7 @@
 .svgContainer {
   display: flex;
   flex-wrap: wrap;
-  height: 120vh;
+  min-height: 120vh;
   padding-left: 6%;
 }
 
