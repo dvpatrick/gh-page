@@ -1,6 +1,10 @@
 import './Contact.css';
 import mapaLoc from '../images/mapaLoc.jpg'
 
+<form name="form1" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="name" />
+</form>
+
 function contact() {
   return (
     <section className="contact">
@@ -36,7 +40,7 @@ function contact() {
             <input type="hidden" name="form-name" value="form1" />
             <div>
               <label htmlFor='name'>Firt name <br />
-                <input id='name' type="text" name="first-name" />
+                <input id='name' type="text" name="name" />
               </label>
             </div>
 
