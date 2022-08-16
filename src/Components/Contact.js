@@ -13,7 +13,7 @@ function contact() {
           por esse formulario. <br /> <br />
         </p>
         {/* <form name="formularioLogin"> */}
-        <form name="formulariologin" method="post" data-netlify="true" onSubmit="submit">
+        {/* <form name="formulariologin" method="post" data-netlify="true" onSubmit="submit">
           <input type="hidden" name="form-name" value="formulariologin" />
           <fieldset>
             <input type="text" name="nome" placeholder='Nome'></input>
@@ -26,7 +26,22 @@ function contact() {
             <textarea type="text" name="texto" placeholder='Texto'></textarea>
           </fieldset>
           <button type="submit" name="enviar" className='btn'>Enviar!</button>
-        </form>
+        </form> */}
+        <form
+          name="form1"
+          method="post"
+          data-netlify="true"
+          onSubmit="submit"
+          >
+            <input type="hidden" name="form-name" value="form1" />
+            <div>
+              <label>Firt name <br />
+                <input type="text" name="first-name" />
+              </label>
+            </div>
+
+            <button type="submit">Submit</button>
+          </form>
       </div>
       <div className='map'>
       {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14959.626954678391!2d-40.37868764999999!3d-20.3867348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83ee07d3cd9c7%3A0x53ae290ed575a60e!2sUnidade%20de%20Sa%C3%BAde%20Rio%20Marinho!5e0!3m2!1spt-BR!2sbr!4v1660603146731!5m2!1spt-BR!2sbr" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='maap'></iframe> */}
