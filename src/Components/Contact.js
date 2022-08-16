@@ -13,7 +13,7 @@ function contact() {
           por esse formulario. <br /> <br />
         </p>
         {/* <form id="formulario" name="formularioLogin" method="post" action="/" data-netlify="true"> */}
-        <form id="formulario" name="formularioLogin" method="post" action="/">
+        <form id="formulario" name="formularioLogin" action="/">
         {/* <form id="formulario" name="formularioLogin" data-netlify="true"> */}
           <fieldset>
             <input type="text" name="nome" placeholder='Nome'></input>
