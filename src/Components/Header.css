@@ -63,6 +63,14 @@ hr {
   transition: .5s ease-out;
 }
 
+.pags a {
+  transition: .5s ease-out;
+  text-decoration: none;
+  color:rgb(145, 145, 145);
+  /* padding: 15px 10px 15px 10px; */
+  padding: 10px 10px 10px 10px;
+}
+
 .icons {
   padding: 80% 5px;
   margin-bottom: 50%;
@@ -80,6 +88,11 @@ hr {
 }
 
 .pags p:hover {
+  color: rgb(0, 247, 255);
+  font-size: 24px;
+}
+
+.pags a:hover {
   color: rgb(0, 247, 255);
   font-size: 24px;
 }

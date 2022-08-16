@@ -4,6 +4,7 @@ import { FaLinkedinIn, FaInstagram, FaGithubSquare } from 'react-icons/fa';
 function Header () {
   return (
     <div className='sidebar'>
+      {/* <p id='header'></p> */}
       <header>
         <div className="namepc">
           <h4> Patrick Barbosa</h4>
@@ -12,13 +13,16 @@ function Header () {
         {/* <br /><br /><br /><br /><br /><br /> */}
         <div className='pags'>
           <hr size="1" ></hr>
-          <p>About</p>
+          <a href="#about">About</a>
           <hr size="1" ></hr>
-          <p>My Skills</p>
+          {/* <p>Skills</p> */}
+          <a href="#skills">Skills</a>
           <hr size="1" ></hr>
-          <p>Work</p>
+          {/* <p>Work</p> */}
+          <a href="#projects">Work</a>
           <hr size="1" ></hr>
-          <p>Contact</p>
+          {/* <p>Contact</p> */}
+          <a href="#contact">Contact</a>
           <hr size="1" ></hr>
         </div>
 

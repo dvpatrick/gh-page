@@ -63,6 +63,7 @@ function Projects () {
 
   return (
     <section className="projects">
+      <p id='projects'></p>
       <h1>Projects</h1>
       <br />
       <p>Uma pequena parcela de projetos realizados por mim durante o curso da Trybe <br />

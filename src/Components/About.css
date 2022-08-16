@@ -15,7 +15,7 @@
 
 .about h2 {
   padding-top: 60px;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   font-size: 60px;
   color:rgb(0, 247, 255);
 
@@ -32,7 +32,7 @@
   padding-top: 30px;
   margin-left: -480px;
   letter-spacing: 2px;
-  font-size: 24px;
+  font-size: 22px;
   transition: .5s ease-out;
 }
 
@@ -42,9 +42,9 @@
 }
 
 .about p:hover {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .about img:hover {
-  width: 690px;
+  width: 640px;
 }

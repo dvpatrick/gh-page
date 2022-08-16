@@ -4,6 +4,7 @@ import progrM from '../images/progrM.png';
 function About() {
   return(
     <section className="about">
+      <p id='about'></p>
       <h2>About me</h2>
       <div className='textImageAbout'>
       <p>
