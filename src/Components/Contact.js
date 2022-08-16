@@ -17,10 +17,10 @@ function contact() {
           <input type="hidden" name="form-name" value="formulariologin" />
           {/* <form id="formulario" name="formularioLogin" action="/"> */}
           {/* <form id="formulario" name="formularioLogin" data-netlify="true"> */}
-          {/* <fieldset> */}
+          <fieldset>
             <input type="text" name="nome" placeholder='Nome'></input>
             <input type="email" name="email" placeholder='Email'></input> <br />
-          {/* </fieldset> */}
+          </fieldset>
           <fieldset>
             <input type="text" name="assunto" placeholder='Assunto'></input>
           </fieldset>
