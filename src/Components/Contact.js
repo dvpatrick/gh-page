@@ -30,13 +30,13 @@ function contact() {
         <form
           name="form1"
           method="post"
-          data-netlify="true"
+          netlify
           onSubmit="submit"
           >
             <input type="hidden" name="form-name" value="form1" />
             <div>
-              <label>Firt name <br />
-                <input type="text" name="first-name" />
+              <label htmlFor='name'>Firt name <br />
+                <input id='name' type="text" name="first-name" />
               </label>
             </div>
 
