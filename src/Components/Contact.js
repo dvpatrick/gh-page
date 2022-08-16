@@ -12,8 +12,9 @@ function contact() {
           alguma duvida ou feedback, seja positivo ou negativo, nao hesite em me mandar <br />
           por esse formulario. <br /> <br />
         </p>
-        <form name="formularioLogin" method="POST" data-netlify="true">
-          <input type="hidden" name="form-name" value="formularioLogin" />
+        {/* <form name="formularioLogin" method="POST" data-netlify="true"> */}
+        <form name="formularioLogin">
+          {/* <input type="hidden" name="form-name" value="formularioLogin" /> */}
           {/* <form id="formulario" name="formularioLogin" action="/"> */}
           {/* <form id="formulario" name="formularioLogin" data-netlify="true"> */}
           <fieldset>
