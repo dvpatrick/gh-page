@@ -6,38 +6,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 body {
-display: flex;
-/* width: 100vw; */
-height: 100vh;
-font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  /* width: 100vw; */
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .body {
   display: flex;
-    /* background-color: rgb(34, 34, 34); */
-    /* background-color: rgb(255, 0, 0); */
-    background-image: url('../images/blackWhite.jpg');
-    background-repeat: no-repeat;
-    background-size:  cover;
-    /* background-position: -750px -200px; */
-    /* background-position: -1000px -410px; */
-  /* rotate: 90deg; */
-  /* background-position-x: center;
-  background-position-y: top; */
-    padding-left: 130px; 
-    height: 100vh;
-    width: 100%;
-    font-family: "Open Sans",sans-serif;
+  /* background-color: rgb(255, 0, 0); */
+  background-image: url('../images/blackWhite.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 130px;
+  height: 100vh;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .apresentacao {
-  color:aliceblue;
-  /* color:rgba(0, 79, 148, 0.5); */
+  display: flex;
+  flex-direction: column;
+  /* background: rgb(255, 255, 255); */
+  color: aliceblue;
   padding-left: 80px;
   padding-top: 140px;
-  font-size: 130px;  /*aqui esta causando distorcao no mobile, fazendo o header ficar andando */
+  font-size: 130px;
   font-family: 'coolvetica';
-  /* font-weight: 550; */
 }
 
 .btn {
@@ -54,7 +49,8 @@ font-family: 'Ubuntu', sans-serif;
   cursor: pointer;
   border-radius: 4px;
   letter-spacing: 6px;
-  border:solid 1px rgb(0, 247, 255);
+  border: solid 1px rgb(0, 247, 255);
+  /* animation: pisca normal infinite .8s, escrever 4s steps(13) both; */
 }
 
 @media screen and (max-width: 1440px) {
@@ -62,7 +58,8 @@ font-family: 'Ubuntu', sans-serif;
     color: white;
     padding-left: 50px;
     padding-top: 90px;
-    font-size: 110px;  /*aqui esta causando distorcao no mobile, fazendo o header ficar andando */
+    font-size: 110px;
+    /*aqui esta causando distorcao no mobile, fazendo o header ficar andando */
     /* font-size: 30px; */
     font-family: 'coolvetica';
     /* font-weight: 550; */
@@ -74,7 +71,8 @@ font-family: 'Ubuntu', sans-serif;
     color: white;
     padding-left: 40px;
     padding-top: 70px;
-    font-size: 105px;  /*aqui esta causando distorcao no mobile, fazendo o header ficar andando */
+    font-size: 105px;
+    /*aqui esta causando distorcao no mobile, fazendo o header ficar andando */
     /* font-size: 30px; */
     font-family: 'coolvetica';
     /* font-weight: 550; */
@@ -86,7 +84,8 @@ font-family: 'Ubuntu', sans-serif;
     color: white;
     padding-left: 2px;
     padding-top: 120px;
-    font-size: 50px;  /*aqui esta causando distorcao no mobile, fazendo o header ficar andando */
+    font-size: 50px;
+    /*aqui esta causando distorcao no mobile, fazendo o header ficar andando */
     /* font-size: 30px; */
     font-family: 'coolvetica';
     /* font-weight: 550; */
@@ -98,21 +97,21 @@ font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     width: 160px;
     height: 45px;
-
     margin: 160px 4px;
     cursor: pointer;
     border-radius: 4px;
     letter-spacing: 2px;
-    border:solid 1px rgb(0, 247, 255);
+    border: solid 1px rgb(0, 247, 255);
   }
 }
 
 @media screen and (max-width: 568px) {
   .apresentacao {
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding-left: 0px;
     padding-top: 120px;
-    font-size: 40px;  /*aqui esta causando distorcao no mobile, fazendo o header ficar andando */
+    font-size: 40px;
+    /*aqui esta causando distorcao no mobile, fazendo o header ficar andando */
     font-family: 'coolvetica';
   }
 
@@ -122,17 +121,126 @@ font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     width: 160px;
     height: 45px;
-
     margin: 160px 4px;
     cursor: pointer;
     border-radius: 4px;
     letter-spacing: 2px;
-    border:solid 1px rgb(0, 247, 255);
+    border: solid 1px rgb(0, 247, 255);
   }
 }
 
-  button:hover {
-    background-color: aqua;
-    color: black;
+button:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.anima {
+  font-family: 'coolvetica';
+  /* background-color: rgb(219, 219, 134); */
+  color: rgb(255, 255, 255);
+  /* font-size: 1.2em; */
+  display: inline-block;
+  border-right: 3px solid #000;
+  padding-right: 4px;
+  /* max-width: 0; */
+  white-space: nowrap;
+  overflow: hidden;
+  /* animation: pisca normal infinite .8s, escrever 4s steps(13) both; */
+  animation: pisca normal infinite .8s;
+}
+
+.letters {
+  transition: 1s;
+  display: inline-block;
+  /* display: flex; */
+  /* flex-direction: row; width: auto; height:auto; flex-wrap: wrap; */
+}
+
+/* .letraP { transition: 1s ease-out; transition-duration: 1s; } */
+.btn:hover {
+  animation: popup 1s;
+}
+
+.apresentacao span {
+  /* animation: popup 1s; */
+  /* animation-delay: 30s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-duration: 1s; */
+  /* transition-timing-function: ease-out; */
+}
+
+.apresentacao p:hover {
+  /* animation: popup 1s ease-out; */
+  animation: rubberBand 1s;
+  /* transition-timing-function: ease-out  */
+}
+
+@keyframes popup {
+  0% {
+    transform: scale3d(1, 1, 1)
   }
 
+  35% {
+    transform: scale3d(1.25, .75, 1)
+  }
+
+  45% {
+    transform: scale3d(.75, 1, 1)
+  }
+
+  60% {
+    transform: scale3d(1.2, .8, 1)
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1)
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1)
+  }
+}
+
+@keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    -ms-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1)
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    -ms-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1)
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    -ms-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1)
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    -ms-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1)
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    -ms-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1)
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}

@@ -2,7 +2,7 @@
   transition: 1s ease-out;
 
   display: flex;
-  width: 94%;
+  min-width: 94%;
   height: 100%;
   flex-direction: column;
   color:rgb(255, 255, 255);

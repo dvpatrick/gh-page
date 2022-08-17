@@ -22,12 +22,12 @@ function Header () {
           <a href="#projects">Work</a>
           <hr size="1" ></hr>
           {/* <p>Contact</p> */}
-          <a href="#contact">Contact</a>
+          <a href="#contact" >Contact</a>
           <hr size="1" ></hr>
         </div>
 
         <div className='icons'>
-          <a href='https://www.linkedin.com/in/dvpatrick/' target="_blank" rel="noreferrer">
+          <a href='https://www.linkedin.com/in/dvpatrick/' target="_blank" className='linkedin' rel="noreferrer" >
           <FaLinkedinIn />
           </a>
           <a href='https://www.instagram.com/patrick.ptk15/' target="_blank" rel="noreferrer">

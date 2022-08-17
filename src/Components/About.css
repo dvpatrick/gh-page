@@ -1,6 +1,6 @@
 .about {
   display: flex;
-  width: 94%;
+  min-width: 94%;
   flex-direction: column;
   color:rgb(255, 255, 255);
   /* font-family: 'coolvetica'; */

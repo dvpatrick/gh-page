@@ -69,6 +69,7 @@ hr {
   color:rgb(145, 145, 145);
   /* padding: 15px 10px 15px 10px; */
   padding: 10px 10px 10px 10px;
+
 }
 
 .icons {
@@ -106,3 +107,22 @@ hr {
   color: rgb(0, 247, 255);
 }
 
+/* .linkedin {
+  animation: pisca normal infinite .8s, escrever 4s steps(13) both;
+
+} */
+
+.linkedin {
+  /* animation: pisca normal infinite .8s, escrever 4s steps(13) both; */
+  transition: 1.5s ease-out;
+  animation: pisca normal infinite .7s;
+}
+
+
+@keyframes pisca {
+  100%{
+    color: rgb(0, 247, 255);
+    /* font-size: 21px; */
+    /* border-color: transparent; */
+  }
+}
